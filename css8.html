@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>CampusX Responsive image galary</h1>
+  <p>Resize the browser window to see the responsive effect of campusx image galary.</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="https://www.chatelaine.com/wp-content/uploads/2019/02/gallery-wall-slanted-angle-Jess-Isaac.jpg" style="width:100%">
+    <img src="https://www.nyiad.edu/images/cms/design-articles/how-to-make-a-gallery-wall.jpg" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRNKHxl51EHZwxStRffXeSsfooR1QzxA2KoMg&amp;usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxZRaSESgiMfM-KLytk5N1x6ZsHPVHVlDP0Q&amp;usqp=CAU" style="width:100%">
+    <img src="https://static1.squarespace.com/static/58818482c534a5d607b45bd6/t/5cf0310d07cd2c00014a8514/1559245085028/npg-room-4.jpg?format=1500w" style="width:100%">
+    <img src="https://i.ibb.co/tz43qMx/1412461-521582951311097-4582602864251719846-o.jpg" style="width:100%">
+    <img src="https://i.ibb.co/PtwB3Pd/25734287-1908397802521469-9140989956074075178-o.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://static1.squarespace.com/static/58818482c534a5d607b45bd6/t/5cf0310d07cd2c00014a8514/1559245085028/npg-room-4.jpg?format=1500w" style="width:100%">
+    <img src="https://i.ibb.co/tz43qMx/1412461-521582951311097-4582602864251719846-o.jpg" style="width:100%">
+    <img src="https://i.ibb.co/PtwB3Pd/25734287-1908397802521469-9140989956074075178-o.jpg" style="width:100%">
+    <img src="https://www.chatelaine.com/wp-content/uploads/2019/02/gallery-wall-slanted-angle-Jess-Isaac.jpg" style="width:100%">
+    <img src="https://www.nyiad.edu/images/cms/design-articles/how-to-make-a-gallery-wall.jpg" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRNKHxl51EHZwxStRffXeSsfooR1QzxA2KoMg&amp;usqp=CAU" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="https://www.nyiad.edu/images/cms/design-articles/how-to-make-a-gallery-wall.jpg" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRNKHxl51EHZwxStRffXeSsfooR1QzxA2KoMg&amp;usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxZRaSESgiMfM-KLytk5N1x6ZsHPVHVlDP0Q&amp;usqp=CAU" style="width:100%">
+     <img src="https://i.ibb.co/PtwB3Pd/25734287-1908397802521469-9140989956074075178-o.jpg" style="width:100%">
+    <img src="https://static1.squarespace.com/static/58818482c534a5d607b45bd6/t/5cf0310d07cd2c00014a8514/1559245085028/npg-room-4.jpg?format=1500w" style="width:100%">
+    <img src="https://i.ibb.co/tz43qMx/1412461-521582951311097-4582602864251719846-o.jpg" style="width:100%">
+   <img src="https://www.chatelaine.com/wp-content/uploads/2019/02/gallery-wall-slanted-angle-Jess-Isaac.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://i.ibb.co/PtwB3Pd/25734287-1908397802521469-9140989956074075178-o.jpg" style="width:100%">
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRNKHxl51EHZwxStRffXeSsfooR1QzxA2KoMg&amp;usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxZRaSESgiMfM-KLytk5N1x6ZsHPVHVlDP0Q&amp;usqp=CAU" style="width:100%">
+    <img src="https://static1.squarespace.com/static/58818482c534a5d607b45bd6/t/5cf0310d07cd2c00014a8514/1559245085028/npg-room-4.jpg?format=1500w" style="width:100%">
+    <img src="https://i.ibb.co/tz43qMx/1412461-521582951311097-4582602864251719846-o.jpg" style="width:100%">
+     <img src="https://www.chatelaine.com/wp-content/uploads/2019/02/gallery-wall-slanted-angle-Jess-Isaac.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
